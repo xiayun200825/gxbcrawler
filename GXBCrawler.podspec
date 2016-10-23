@@ -1,12 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "GXBCrawler"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GXBCrawler."
+  s.summary          = "GXBCrawler SDK"
   s.description      = <<-DESC
-                       An optional longer description of GXBCrawler
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       GXBCrawlerSDK for clients to integrate.
                        DESC
   s.homepage         = "https://github.com/xiayun200825/gxbspider"
   s.license          = 'MIT'
@@ -18,7 +15,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'Products/GXBCrawler.framework'
   s.resources           = 'Resources/GXBCrawler.bundle'
-  s.source_files        = 'Products/GXBCrawler.framework/Header/*.h'
 
   s.dependency 'AFNetworking'
   s.dependency 'JSONModel'
