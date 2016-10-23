@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [GXBCrawlerClient registerGXBCrawlerWithAppId:@"gxba57f409ca1fe2dfa" appSecret:@"2d1844d9dd8540149e936b0125c4f8de"];
+    [GXBCrawlerClient registerGXBCrawlerWithAppId:@"Your App Id" appSecret:@"Your App Secret"];
 
     return YES;
 }

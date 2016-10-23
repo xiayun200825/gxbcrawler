@@ -49,10 +49,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [GXBCrawlerClient presentGXBViewControllerIn:self
-                                        userInfo:@{@"sequenceNo":@"1234",
-                                                   @"phone":@"18806810370",
-                                                   @"name":@"张仲礼",
-                                                   @"idcard":@"370205197405213513",
+                                        userInfo:@{@"sequenceNo":@"{sequenceNo}",
+                                                   @"phone":@"{phone}",
+                                                   @"name":@"{name}",
+                                                   @"idcard":@"{idcard}",
                                                    @"authItem":self.code[indexPath.row]}
                                       completion:^(BOOL succeed, NSError *error) {
                                           NSLog(@"授权状态：%@,%@",@(succeed), error);
