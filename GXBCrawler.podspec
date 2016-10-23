@@ -8,16 +8,14 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "http://139.224.19.87/ios/ios-crawler-sdk"
+  s.homepage         = "https://github.com/xiayun200825/gxbspider"
   s.license          = 'MIT'
   s.author           = { "gxb" => "gxb@gmail.com" }
-  s.source           = { :git => "http://iZ11ro8cf9xZ/ios/ios-crawler-sdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/xiayun200825/gxbspider.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  #s.public_header_files = 'GXBCrawler/GXBSpider.h'
 
-  #s.source_files       = 'GXBCrawler/**/*.{h,m}'
   s.vendored_frameworks = 'Products/GXBCrawler.framework'
   s.resources           = 'Resources/GXBCrawler.bundle'
   s.source_files        = 'Products/GXBCrawler.framework/Header/*.h'
