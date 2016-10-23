@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+target 'GXBDemo' do
+    #pod ‘GXBSpider’, :path => ‘~/Desktop/gxbspider’
+    #pod ‘GXBSpider’, :git => 'http://iZ11ro8cf9xZ/ios/ios-crawler-sdk.git', :tag=>'0.1.0'
+    
+    #pod 'GXBCrawler', :path => '~/Desktop/gxbcrawler'
+    pod 'GXBCrawler', :git => 'https://github.com/xiayun200825/gxbcrawler.git', :tag => '0.1.0'
+end

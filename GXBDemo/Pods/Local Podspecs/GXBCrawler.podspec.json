@@ -1,0 +1,33 @@
+{
+  "name": "GXBCrawler",
+  "version": "0.1.0",
+  "summary": "A short description of GXBCrawler.",
+  "description": "An optional longer description of GXBCrawler\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/xiayun200825/gxbspider",
+  "license": "MIT",
+  "authors": {
+    "gxb": "gxb@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xiayun200825/gxbspider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "Products/GXBCrawler.framework",
+  "resources": "Resources/GXBCrawler.bundle",
+  "source_files": "Products/GXBCrawler.framework/Header/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
+}

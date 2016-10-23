@@ -1,0 +1,6 @@
+framework module GXBCrawler {
+  umbrella header "GXBCrawler.h"
+
+  export *
+  module * { export * }
+}
